@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;700&family=Open+Sans&display=swap');
+
+.section_about{
+    background-color: black;
+    padding: 64px 96px;
+   
+}
+
+.about_overlay img{
+    position: absolute;
+    top: 16rem;
+    width: 391px;
+    height: 415px;
+   
+}
+
+.about_overlay{
+    position: relative;
+}
+.about_contents{
+    position: relative;
+    top: 0;
+   
+}
+
+
+.headtext__cormorant{
+    color: #dcca87;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: .04em;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.aboutus-content_about{
+    padding-left: 5rem;
+    text-align: right;
+}
+.aboutus-content_history{
+    padding-right: 5rem;
+    text-align: left;
+}
+.aboutus-content_about p{
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+.aboutus-content_history p{
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+.knife img{
+    height: 910px;
+    margin: 0rem 4rem;
+}
+
+
+@media screen and (max-width: 450px) {
+
+   .headtext__cormorant{
+      font-size: 43px;
+      line-height: 63px;
+   }
+   .p__opensans{
+    font-size: 12px;
+   }
+   .aboutus-content_about{
+    padding-left: 0rem;
+   }
+   .aboutus-content_history{
+    padding-right: 0rem;
+   }
+   .knife img{   
+    margin: 64px 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .section_about{
+        padding: 64px 32px;
+    }
+    .about_overlay img{
+        top: 35rem;
+        width: 80%;
+        height: 320px;
+    }
+    .aboutus-content_about{
+        padding-left: 0rem;
+       }
+       .aboutus-content_history{
+        padding-right: 0rem;
+       }
+       .knife img{   
+        margin: 64px 0px;
+        }
+    
+}
+
+@media only screen and (max-width: 849px) and (min-width: 651px)  {
+    .section_about{
+        padding: 64px;
+    }
+}
+
+
+
+@media screen and (min-width: 2000px) {
+    .knife img{
+        height: 1110px;
+    }
+
+    .gericht__aboutus-content_about p,
+    .gericht__aboutus-content_history p {
+        margin: 4rem 0;
+    }
+}

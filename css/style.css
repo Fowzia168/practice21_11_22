@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;700&family=Open+Sans&display=swap');
+.custom-button{
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+
+    background-color: #f5efdb;;
+    color:black;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Cormorant Upright', serif;
+
+ 
+}
+
+.p__opensans{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 28px;
+    font-size: 16px;
+    color: #aaa;
+}
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 450px)
+{
+    .p__opensans {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 649px) and (min-width: 451px)  {
+    .p__opensans {
+        font-size: 14px;
+    }
+}

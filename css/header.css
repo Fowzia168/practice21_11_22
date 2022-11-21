@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;700&family=Open+Sans&display=swap');
+.header_wrap{
+    background-color: black;
+    padding: 64px 96px;
+}
+    
+.header_info{
+    color: aliceblue;   
+
+}
+.header_img{
+    width: 80%;    
+    margin-left: 2rem;
+}
+.header_info h1{
+    font-family: 'Cormorant Upright', serif;
+    font-feature-settings: "tnum" on,"lnum" on;
+    color: #dcca87;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+.header_info .title p{
+
+    font-family: 'Cormorant Upright', serif;
+    font-feature-settings: "tnum" on,"lnum" on;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.spoon_img{
+    width: 45px;
+}
+.ex_button{
+    padding: 5px 20px;
+    color: #6a1a03;
+    font-size: large;
+    background-color:#dcca87;
+}
+
+@media only screen and (max-width: 649px) {
+    .header_wrap{       
+        padding: 64px 32px;
+    }
+    .header_info .title p{
+        font-size: 19px;
+       
+    }
+    .header_info h1{       
+        font-size: 50px;
+        line-height: 70px;
+    }
+   
+
+}
+
+
+
+@media screen and (max-width:1150px) {
+    .header_img_div{
+        margin:5rem 0 0;
+    }
+    
+}
